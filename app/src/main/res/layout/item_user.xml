@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    android:layout_margin="5dp"
+    >
+
+    <ImageView
+        android:id="@+id/imageid"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/images__14_"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+       >
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Hanaa Nassef"
+            android:textStyle="bold|italic"
+            android:textSize="20sp"
+            android:textColor="#222"
+            android:layout_margin="10dp"
+            />
+        <TextView
+            android:id="@+id/tvPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="01022760169"
+            android:textStyle="bold|italic"
+            android:textSize="20sp"
+            android:textColor="#222"
+            android:layout_margin="10dp"
+            />
+    </LinearLayout>
+</LinearLayout>
